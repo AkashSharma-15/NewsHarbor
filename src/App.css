@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+}
+
+.btn {
+  color: #ffffff;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+
+.news-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
